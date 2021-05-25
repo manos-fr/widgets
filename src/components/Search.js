@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-const Search = () => {
+export default function Search() {
   const [term, setTerm] = useState("programming");
   const [results, setResults] = useState([]);
 
@@ -69,6 +69,6 @@ const Search = () => {
       <div className="ui celled list">{renderedResults}</div>
     </div>
   );
-};
+}
 
-export default Search;
+// export default Search;

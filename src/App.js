@@ -36,8 +36,8 @@ const items = [
 function App() {
   return (
     <div>
-      <Dropdown options={options} />
-      {/* <Search /> */}
+      {/* <Dropdown options={options} /> */}
+      <Search />
       {/* <Accordion items={items} />  */}
     </div>
   );
