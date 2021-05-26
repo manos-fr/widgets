@@ -5,15 +5,15 @@ import Dropdown from "./components/Dropdown";
 
 const options = [
   {
-    label: "the color red",
+    label: "The color red",
     value: "red",
   },
   {
-    label: "color green",
+    label: "Color green",
     value: "green",
   },
   {
-    label: "color blue",
+    label: "Color blue",
     value: "blue",
   },
 ];
@@ -36,8 +36,8 @@ const items = [
 function App() {
   return (
     <div>
-      {/* <Dropdown options={options} /> */}
-      <Search />
+      <Dropdown options={options} />
+      {/* <Search /> */}
       {/* <Accordion items={items} />  */}
     </div>
   );
